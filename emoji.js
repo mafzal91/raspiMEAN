@@ -68,9 +68,9 @@ var getUnicode = function () {
         });
 
       }, function(err){
-        fs.writeFile("emojis/emoji.css", css, function(){
-          console.log("done");
-        })
+        // fs.writeFile("emojis/emoji.css", css, function(){
+        //   console.log("done");
+        // })
         console.log("yolo");
       });
 
