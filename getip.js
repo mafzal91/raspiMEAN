@@ -15,11 +15,11 @@ var getIp = function(){
   }
 
   request(options, function (err, response, body) {
-    console.log(body);
+    // console.log(body);
     jsdom.env(body, ["http://code.jquery.com/jquery.js"], function(err, window) {
       var jq = window.$;
 
-      console.log(jq('_h4c._rGd.vk_h').text());
+      console.log("((((((((((((((", jq('_h4c._rGd.vk_h').text());
 
     });
 
