@@ -19,7 +19,7 @@ var getIp = function(){
     jsdom.env(body, ["http://code.jquery.com/jquery.js"], function(err, window) {
       var jq = window.$;
 
-      console.log("((((((((((((((", jq('_h4c._rGd.vk_h').text());
+      console.log("((((((((((((((", jq('body').text());
 
     });
 
