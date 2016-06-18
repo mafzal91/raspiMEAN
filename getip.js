@@ -27,3 +27,5 @@ var getIp = function(){
 
 
 }
+
+getIp();
