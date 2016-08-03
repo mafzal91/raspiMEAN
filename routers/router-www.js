@@ -6,3 +6,5 @@ var router = express.Router();
 var index = require('../middlewares/www/index');
 
 router.get('/', index.home);
+
+module.exports = router;
